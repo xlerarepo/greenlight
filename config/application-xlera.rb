@@ -145,16 +145,16 @@ module Greenlight
     # DEFAULTS
 
     # Default branding image if the user does not specify one
-    config.branding_image_default = "https://assets.xlera.org/emar/logo_with_text.png"
+    config.branding_image_default = "https://assets.xlera.org/image/xlera_full_text.png"
 
     # Default primary color if the user does not specify one
-    config.primary_color_default = "#0072ce"
+    config.primary_color_default = "#37517e"
 
     # Default primary color lighten if the user does not specify one
     config.primary_color_lighten_default = "#e8eff9"
 
     # Default primary color darken if the user does not specify one
-    config.primary_color_darken_default = "#0072ce"
+    config.primary_color_darken_default = "#37517e"
 
     # Default registration method if the user does not specify one
     config.registration_method_default = case ENV["DEFAULT_REGISTRATION"]

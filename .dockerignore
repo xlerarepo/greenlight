@@ -6,7 +6,7 @@ SECURITY.md
 .github
 
 # Rails
-.env
+#.env
 *.rbc
 capybara-*.html
 .rspec

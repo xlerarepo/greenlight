@@ -4,6 +4,7 @@ FROM ruby:2.7.2-alpine AS base
 ARG RAILS_ROOT=/usr/src/app
 # Set Rails environment.
 ENV RAILS_ENV production
+#ENV RAILS_ENV=development
 ENV BUNDLE_APP_CONFIG="$RAILS_ROOT/.bundle"
 
 # Make the directory and set as working.
@@ -45,6 +46,7 @@ ARG RAILS_ROOT=/usr/src/app
 ARG PACKAGES="tzdata curl postgresql-client sqlite-libs yarn nodejs bash"
 
 ENV RAILS_ENV=production
+#ENV RAILS_ENV=development
 ENV BUNDLE_APP_CONFIG="$RAILS_ROOT/.bundle"
 
 WORKDIR $RAILS_ROOT
